@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sylian Aoudia — Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <span class="loader-letter">S</span>
+      <span class="loader-letter">A</span>
+    </div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-logo">SA<span class="nav-dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#work">Projets</a></li>
+      <li><a href="#experience">Expériences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="langToggle" class="nav-btn">EN</button>
+      <button id="themeToggle" class="nav-btn">○</button>
+      <a href="assets/cv.pdf" class="nav-cv" download>CV ↗</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-tag" data-translate="heroTag">Data Analyst · Gestion · RH</p>
+      <h1 class="hero-name">
+        <span class="hero-line-wrap">
+          <span class="hero-line" id="heroLetters">Sylian Aoudia</span>
+        </span>
+      </h1>
+      <div class="hero-bottom-row">
+        <p class="hero-claim" data-translate="heroClaim">Je donne du sens aux données pour que les organisations décident mieux.</p>
+        <div class="hero-right-col">
+          <p class="hero-meta">
+            <span data-translate="heroMeta">BUT GEA GEMA</span>
+            <span class="sep">·</span>
+            <span>BNP Paribas IT Group</span>
+            <span class="sep">·</span>
+            <span>Paris</span>
+          </p>
+          <a href="#work" class="hero-cta" data-translate="heroCta">Explorer ↓</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-available" data-translate="heroAvailable">Disponible · Master 2026</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-left">
+        <div class="section-label" data-translate="aboutLabel">À propos</div>
+        <h2 class="section-title">
+          <span data-translate="aboutT1">Analytique</span>
+          <em data-translate="aboutT2">par nature.</em>
+        </h2>
+        <div class="about-text">
+          <p data-translate="aboutP1">Je m'appelle Sylian, j'ai 20 ans et je suis Data Analyst RH en alternance chez BNP Paribas IT Group. Mon profil est né d'une conviction simple : la gestion sans la donnée reste intuitive, la donnée sans compréhension des organisations peine à produire des décisions pertinentes.</p>
+          <p data-translate="aboutP2">Trois ans de BUT GEA m'ont donné la culture des organisations en management, stratégie et entrepreneuriat. Mes expériences chez BNP Paribas m'ont confronté à la réalité de la data en grande entreprise : pipelines ETL, dashboards décisionnels, RGPD, structuration d'indicateurs RH.</p>
+          <p data-translate="aboutP3">Mon objectif : devenir Data Analyst dans un environnement exigeant, avec une ambition à long terme d'exercer à l'international.</p>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="about-photo-wrap">
+          <img src="assets/Photos.jpg" alt="Sylian Aoudia" class="about-photo">
+          <div class="about-photo-overlay"></div>
+        </div>
+        <div class="about-interests-visual">
+          <div class="interest-card">
+            <span class="interest-card-icon">⚽</span>
+            <span class="interest-card-label" data-translate="i1">Football</span>
+            <span class="interest-card-sub" data-translate="i1sub">Stats xG · FC 93 · 6 ans en club</span>
+          </div>
+          <div class="interest-card">
+            <span class="interest-card-icon">🎮</span>
+            <span class="interest-card-label" data-translate="i2">Jeux vidéo</span>
+            <span class="interest-card-sub" data-translate="i2sub">Simulation sportive · Jeux narratifs · 10 ans</span>
+          </div>
+          <div class="interest-card">
+            <span class="interest-card-icon">🌏</span>
+            <span class="interest-card-label" data-translate="i3">International</span>
+            <span class="interest-card-sub" data-translate="i3sub">Ambition d'exercer en Asie du Sud-Est</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack">
+    <div class="stack-inner">
+      <div class="section-label" data-translate="stackLabel">Stack & outils</div>
+      <h2 class="section-title">
+        <span data-translate="stackT1">Ce que</span>
+        <em data-translate="stackT2">je maîtrise.</em>
+      </h2>
+      <div class="stack-grid">
+        <div class="stack-category">
+          <div class="stack-cat-label">Data & BI</div>
+          <div class="stack-items">
+            <span class="stack-item">Tableau Desktop</span>
+            <span class="stack-item">Power BI</span>
+            <span class="stack-item">Alteryx</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label" data-translate="stackCat2">Analyse & traitement</div>
+          <div class="stack-items">
+            <span class="stack-item">Excel avancé (TCD, VBA, Power Query)</span>
+            <span class="stack-item">SQL (jointures, agrégations, filtrage)</span>
+            <span class="stack-item">Python (Pandas, NumPy)</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label" data-translate="stackCat3">Bureautique</div>
+          <div class="stack-items">
+            <span class="stack-item">Microsoft Office</span>
+            <span class="stack-item">Google Workspace</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label" data-translate="stackCat4">Montage & créatif</div>
+          <div class="stack-items">
+            <span class="stack-item">Adobe Photoshop</span>
+            <span class="stack-item">Canva</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label" data-translate="stackCat5">En apprentissage</div>
+          <div class="stack-items">
+            <span class="stack-item stack-learning">HTML</span>
+            <span class="stack-item stack-learning">CSS</span>
+            <span class="stack-item stack-learning">JavaScript</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label" data-translate="stackCat6">Langues</div>
+          <div class="stack-items">
+            <span class="stack-item">Français · Natif</span>
+            <span class="stack-item">Kabyle · C1</span>
+            <span class="stack-item">Anglais · B2 certifié</span>
+            <span class="stack-item">Espagnol · B2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="section-label" data-translate="workLabel">Projets</div>
+    <h2 class="section-title">
+      <span data-translate="workT1">Ce que</span>
+      <em data-translate="workT2">j'ai construit.</em>
+    </h2>
+    <div class="work-list">
+
+      <div class="work-item">
+        <div class="work-num">01</div>
+        <div class="work-body">
+          <p class="work-type" data-translate="wt1">Projet personnel</p>
+          <h3 class="work-title">PSG Data Hub</h3>
+          <p class="work-desc" data-translate="wd1">Dashboard data analytics sur 14 saisons du PSG. Base SQLite, scripts Python, 10 requêtes SQL analytiques, interface web interactive déployée sur Vercel.</p>
+          <div class="work-tags"><span>Python</span><span>SQLite</span><span>Pandas</span><span>Chart.js</span><span>Vercel</span></div>
+          <div class="work-links">
+            <a href="https://psg-data-hub.vercel.app" target="_blank" rel="noopener">Site ↗</a>
+            <a href="https://github.com/Sylian25/psg-data-hub" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="work-visual">
+          <div class="work-img-wrap">
+            <img src="assets/projects/psgdatahub.png" alt="PSG Data Hub" class="work-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item work-rev">
+        <div class="work-num">02</div>
+        <div class="work-body">
+          <p class="work-type" data-translate="wt2">Projet universitaire</p>
+          <h3 class="work-title">Solid'R</h3>
+          <p class="work-desc" data-translate="wd2">Étude de faisabilité d'une épicerie solidaire étudiante. Enquête terrain, benchmarking national, entretiens experts, modélisation de scénarios.</p>
+          <div class="work-tags"><span>Benchmarking</span><span>Excel</span><span>Entretiens</span></div>
+        </div>
+        <div class="work-visual">
+          <div class="work-img-wrap">
+            <img src="assets/projects/solidr.png" alt="Solid'R" class="work-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-num">03</div>
+        <div class="work-body">
+          <p class="work-type" data-translate="wt3">Projet universitaire</p>
+          <h3 class="work-title">BOOSTA'Carrière</h3>
+          <p class="work-desc" data-translate="wd3">Co-fondation d'une solution d'accompagnement à l'insertion professionnelle. Étude de marché, business plan 3 ans, pitch investisseur.</p>
+          <div class="work-tags"><span>Entrepreneuriat</span><span>Business plan</span><span>Pitch</span></div>
+        </div>
+        <div class="work-visual">
+          <div class="work-img-wrap">
+            <img src="assets/projects/boostacarriere.png" alt="BOOSTA'Carrière" class="work-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item work-rev">
+        <div class="work-num">04</div>
+        <div class="work-body">
+          <p class="work-type" data-translate="wt4">Projet universitaire</p>
+          <h3 class="work-title">Audit Transformation Numérique</h3>
+          <p class="work-desc" data-translate="wd4">Mission de conseil junior : audit de maturité numérique via le modèle DIMM. 4 entretiens experts, diagnostic comparatif, préconisations stratégiques.</p>
+          <div class="work-tags"><span>Modèle DIMM</span><span>Conseil</span><span>Analyse</span></div>
+        </div>
+        <div class="work-visual">
+          <div class="work-img-wrap">
+            <img src="assets/projects/transfonumerique.png" alt="Audit Transformation Numérique" class="work-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-num">05</div>
+        <div class="work-body">
+          <p class="work-type" data-translate="wt5">Projet universitaire</p>
+          <h3 class="work-title">Brasserie des Sommets</h3>
+          <p class="work-desc" data-translate="wd5">Mission de conseil en performance financière. États financiers, bilan, analyse des SIG, recommandations sur la politique commerciale.</p>
+          <div class="work-tags"><span>Dailybiz</span><span>Comptabilité</span><span>SIG</span></div>
+        </div>
+        <div class="work-visual">
+          <div class="work-img-wrap">
+            <img src="assets/projects/brasseriedessommets.png" alt="Brasserie des Sommets" class="work-img">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label" data-translate="xpLabel">Expériences</div>
+    <h2 class="section-title">
+      <span data-translate="xpT1">Ce que</span>
+      <em data-translate="xpT2">j'ai vécu.</em>
+    </h2>
+    <div class="xp-list">
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/bnpparibas.png" alt="BNP Paribas"></div>
+          <div class="xp-info">
+            <span class="xp-date">Août 2025 — En cours</span>
+            <h3 class="xp-title">Data Analyst RH</h3>
+            <span class="xp-co">BNP Paribas IT Group · Montreuil</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-alt" data-translate="bAlt">Alternance</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb1">J'assure l'interface entre les équipes data et formation pour la gestion et la valorisation des données RH du groupe. Je participe au pilotage du projet ReCode, consistant à analyser les données démographiques et les compétences des développeurs à travers le monde afin d'éclairer la stratégie de formation face à l'essor de l'IA. Je participe également à la mise à jour mensuelle d'un pipeline ETL sous Alteryx, restitué sous Tableau Desktop dans le respect des exigences RGPD, qui alimente le tableau de bord global des KPI formation.</p>
+          <div class="xp-tags"><span>Alteryx</span><span>Tableau Desktop</span><span>Excel avancé</span><span>RGPD</span></div>
+        </div>
+      </div>
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/djs.png" alt="Mairie de Paris"></div>
+          <div class="xp-info">
+            <span class="xp-date">Juillet 2025</span>
+            <h3 class="xp-title">Agent Technique des Installations Sportives</h3>
+            <span class="xp-co">Mairie de Paris · Ville de Paris</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-job" data-translate="bJob">Job étudiant</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb2">Gestion opérationnelle d'un centre sportif municipal : accueil, surveillance des installations, suivi des fréquentations et gestion des plannings.</p>
+        </div>
+      </div>
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/bnpparibas.png" alt="BNP Paribas"></div>
+          <div class="xp-info">
+            <span class="xp-date">Janvier — Mars 2025</span>
+            <h3 class="xp-title">Assistant Data Analyst RH</h3>
+            <span class="xp-co">BNP Paribas IT Group · Montreuil</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-stage" data-translate="bStage">Stage</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb3">Conception en autodidacte de tableaux de bord interactifs sous Power BI pour le pilotage de deux parcours de formation, générant un gain de productivité de 30% sur le reporting RH. Développement d'une moulinette Excel entièrement automatisée, avec menu interactif et mode d'emploi intégré. Ce stage a conduit la direction à me proposer de poursuivre en alternance.</p>
+          <div class="xp-tags"><span>Power BI</span><span>Excel avancé</span><span>Power Query</span><span>Automatisation</span></div>
+        </div>
+      </div>
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/carrefour.png" alt="Carrefour"></div>
+          <div class="xp-info">
+            <span class="xp-date">Octobre — Décembre 2024</span>
+            <h3 class="xp-title">Équipier de vente en rayon</h3>
+            <span class="xp-co">Carrefour · Drancy</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-job" data-translate="bJob">Job étudiant</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb4">Mise en rayon, gestion des stocks et conseil client dans un hypermarché à fort volume. Exercé en parallèle de ma deuxième année de BUT, cette expérience m'a appris à concilier engagement professionnel et vie étudiante.</p>
+        </div>
+      </div>
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/djs.png" alt="Mairie de Paris"></div>
+          <div class="xp-info">
+            <span class="xp-date">Juillet 2024</span>
+            <h3 class="xp-title">Agent Technique des Installations Sportives</h3>
+            <span class="xp-co">Mairie de Paris · Ville de Paris</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-job" data-translate="bJob">Job étudiant</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb5">Première mission au sein d'un centre sportif municipal de la Ville de Paris. Accueil des usagers, surveillance des installations et entretien des équipements.</p>
+        </div>
+      </div>
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/museequaibranly.png" alt="Musée du Quai Branly"></div>
+          <div class="xp-info">
+            <span class="xp-date">Mars 2024</span>
+            <h3 class="xp-title">Assistant RH</h3>
+            <span class="xp-co">Musée du Quai Branly · Paris 7e</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-stage" data-translate="bStage">Stage</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb6">Fiabilisation de la base de données du SIRH "FNA" (Fiche Nouvel Arrivant) : identification et correction d'une centaine d'incohérences. Participation à l'ensemble des fonctions RH : paie, formation, santé et qualité de vie au travail.</p>
+          <div class="xp-tags"><span>Ressources humaines</span><span>SIRH</span><span>Excel</span></div>
+        </div>
+      </div>
+
+      <div class="xp-item" onclick="toggleXp(this)">
+        <div class="xp-header">
+          <div class="xp-logo"><img src="assets/logos/pepemanzo.png" alt="Pepe Manzo"></div>
+          <div class="xp-info">
+            <span class="xp-date">Juillet — Août 2023</span>
+            <h3 class="xp-title">Employé Polyvalent</h3>
+            <span class="xp-co">Pepe Manzo · Aulnay-sous-Bois</span>
+          </div>
+          <div class="xp-meta">
+            <span class="badge badge-job" data-translate="bJob">Job étudiant</span>
+            <span class="xp-arrow">+</span>
+          </div>
+        </div>
+        <div class="xp-body">
+          <p data-translate="xb7">Service en salle dans un restaurant : accueil des clients, prise de commandes, service et gestion des stocks. Première expérience professionnelle.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label" data-translate="contactLabel">Contact</div>
+    <h2 class="section-title">
+      <span data-translate="contactT1">Travaillons</span>
+      <em data-translate="contactT2">ensemble.</em>
+    </h2>
+    <p class="contact-sub" data-translate="contactSub">Disponible pour échanger sur une opportunité, un projet data ou simplement pour se connecter.</p>
+    <div class="contact-grid">
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label data-translate="formName">Nom</label>
+          <input type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label data-translate="formSubject">Sujet</label>
+          <input type="text" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label data-translate="formMessage">Message</label>
+          <textarea name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="form-submit" data-translate="formSend">Envoyer ↗</button>
+      </form>
+      <div class="contact-info">
+        <div class="contact-link-item">
+          <span class="contact-link-label">Email</span>
+          <a href="mailto:sylianaoudia06@gmail.com" class="contact-link-val">sylianaoudia06@gmail.com</a>
+        </div>
+        <div class="contact-link-item">
+          <span class="contact-link-label">LinkedIn</span>
+          <a href="https://linkedin.com/in/sylian-aoudia-867411298" target="_blank" class="contact-link-val">Sylian Aoudia ↗</a>
+        </div>
+        <div class="contact-link-item">
+          <span class="contact-link-label">GitHub</span>
+          <a href="https://github.com/Sylian25" target="_blank" class="contact-link-val">Sylian25 ↗</a>
+        </div>
+        <div class="contact-link-item">
+          <span class="contact-link-label">CV</span>
+          <a href="assets/cv.pdf" class="contact-link-val" download>Télécharger ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">SA.</span>
+      <span class="footer-copy" data-translate="footerCopy">© 2026 Sylian Aoudia · Data Analyst</span>
+      <span class="footer-built" data-translate="footerBuilt">Conçu & développé par Sylian Aoudia</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
